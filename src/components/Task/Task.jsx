@@ -14,7 +14,7 @@ export const Task = () => {
           {projects.map(project => {
             return (
               <div key={project.id}>
-                  <img loading='lazy' src={project.img} />
+                  <img  src={project.img} />
                   <div className="img-overlay">
                     <div>
                       <a href={project.live_url} target={'_blank'}><FontAwesomeIcon icon={faArrowUpRightFromSquare}  /></a>
