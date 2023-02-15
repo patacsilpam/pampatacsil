@@ -5,7 +5,7 @@
         "title":"Tap&Eat",
         "description":"An android application that consists of online food ordering and table reservation developed for Mang Macs Marinero Foodshop.",
         "tools":"Java, Android Studio, Retrofit2, PHP, MySQL",
-        "img":"https://www.google.com/imgres?imgurl=https%3A%2F%2Fmms.businesswire.com%2Fmedia%2F20210216006039%2Fen%2F859393%2F23%2Fvercel.jpg&imgrefurl=https%3A%2F%2Fwww.businesswire.com%2Fnews%2Fhome%2F20210216006039%2Fen%2FVercel-Debuts-Agency-Partner-Program-and-Experts-Marketplace-to-Help-Global-Enterprises-Improve-Web-User-Experience&tbnid=QWd1vQAoVqBjUM&vet=12ahUKEwjvjKzs4Zb9AhXHC94KHfa2BNoQMygDegUIARDkAQ..i&docid=vfNVJwsFxUwnnM&w=1200&h=627&q=vercel&ved=2ahUKEwjvjKzs4Zb9AhXHC94KHfa2BNoQMygDegUIARDkAQ",
+        "img":"src/assets/tap-eat.png",
         "live_url":"#",
         "github_link":"https://github.com/patacsilpam/mang-macs-mobile-app"
     },
