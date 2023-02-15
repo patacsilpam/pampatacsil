@@ -1,0 +1,40 @@
+
+[
+    {
+        "id":1,
+        "title":"Tap&Eat",
+        "description":"An android application that consists of online food ordering and table reservation developed for Mang Macs Marinero Foodshop.",
+        "tools":"Java, Android Studio, Retrofit2, PHP, MySQL",
+        "img":"/src/assets/tap-eat.png",
+        "live_url":"#",
+        "github_link":"https://github.com/patacsilpam/mang-macs-mobile-app"
+    },
+    {
+        "id":2,
+        "title":"RMS",
+        "description":"A restaurant management system that monitor orders, reservations & sales of Mang Macs Marinero Foodshop.",
+        "tools":"PHP, MySQL, JavaScript, ChartJS, Bootstrap CSS",
+        "img":"/src/assets/RMS.png",
+        "live_url":"#",
+        "github_link":"https://github.com/patacsilpam/mang-macs-admin-web-RMS"
+    },
+    {
+        "id":3,
+        "title":"Chatbot",
+        "description":"A web application covid chatbot for assessing patients to quickly self-assess their risk of virus infection and directs them to the right treatment",
+        "tools":"PHP, MySQL, JavaScript",
+        "img":"/src/assets/chatbot.png",
+        "live_url":"https://goolkeepers.000webhostapp.com/get-started.php",
+        "github_link":"https://github.com/patacsilpam/covid-19-chatbot"
+    },
+    {
+        "id":4,
+        "title":"Landing Page",
+        "description":"A responsive website landing page for Mang Macs Marineros Pizza House located at Brgy. Sta. Lucia, Bypass Road, Urdaneta City,Pangasinan. ",
+        "tools":"HTML5, CSS3, JavaScript",
+        "img":"/src/assets/landing-page.png",
+        "live_url":"https://patacsilpam.github.io/restaurant-landing-page/home.html",
+        "github_link":"https://github.com/patacsilpam/restaurant-landing-page"
+    }
+ 
+]

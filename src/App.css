@@ -1,0 +1,421 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
+:root{
+    --blue-violet:#5A82FC;
+    --dark-blue:#141726;
+    --white:#E1E1E1;
+    --light-blue:#253058;
+    --gray:#B6B7C8;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: var(--white);
+    list-style: none;
+}
+
+body{
+    background: var(--dark-blue);
+}
+hr{
+    background: var(--gray);
+    color: var(--gray);
+    opacity: .1;
+}
+.route-con{
+    position: relative;
+   max-width: 960px;
+    margin: 0 auto;
+ 
+}
+
+/*navbar style*/
+/*
+.navBar-fixed{
+    position: fixed;
+    background: var(--dark-blue);
+    width: 100%;
+    z-index: 9999;
+}*/
+.navBar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1rem 0;
+}
+.logo > h1{
+    letter-spacing: 2px;
+    color: var(--white);
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.navLinks{
+    display: flex;
+    flex-direction: row;
+}
+
+.navLinks li{
+    margin: 1rem 2.5rem;
+    font-size: 1rem;
+   
+}
+.navLinks li a{
+    color: var(--gray);
+    display: inline-block;
+    position: relative;
+}
+.navLinks li a:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: var(--blue-violet);
+    transform-origin: center;
+    transition: transform .2s ease-out;
+}
+.navLinks li a:hover:after {
+    transform: scaleX(1);
+    transform-origin: center;
+}
+.navLinks li a:hover{
+    color: var(--blue-violet);
+    transition: 1s ease-out;
+}
+
+.menu-burger{
+    cursor: pointer;
+    display: none;
+}
+.menu-burger>div{
+    height: 4px;
+    width: 40px;
+    border-radius: 2px;
+    margin: .5rem;
+    background: var(--white);
+}
+/*home section style*/
+.home{
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.home > div {
+    margin: -5rem 1rem;
+    margin-top: -5rem;
+}
+.home > div > span {
+    font-size: 2rem;
+    letter-spacing: 1px;
+}
+.home > div > h1{
+    font-size: 4.5rem;
+    letter-spacing: 1px;
+}
+.home> div > h1 > span{
+    color: var(--blue-violet);
+}
+.home > div > p{
+    color: var(--gray);
+    width: 500px;
+    line-height: 30px;
+    font-size: 1.1rem;
+}
+.home > div a {
+    padding: .7rem;
+    margin-top: 1rem;
+    color: var(--blue-violet);
+    border: 2px solid var(--blue-violet);
+    box-shadow:-1px 2px 4px 1px rgba(45, 77, 173, 0);
+}
+.home > div a:hover {
+    background: var(--light-blue);
+    color: var(--white);
+}
+/*About me style*/
+.about{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10rem 0;
+}
+.about > .about-section{
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem 0;
+   
+}
+.about > .about-section > h1{
+    font-size: 3rem;
+    margin-top: -1rem;
+}
+.about > .about-section > p,
+.about > .about-section >p> b{
+    color: var(--gray);
+}
+.about > .about-section > p{
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+.about > .about-section > img{
+    width: 350px;
+    height: 300px;
+    border-radius: 3px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: -5px 10px 31px 0px rgba(46, 40, 79, 0.291);
+    
+}
+/*Task component stye*/
+.project > h1{
+    font-size: 3rem;
+    margin: 0 1rem;
+    text-align: left;
+    color: var(--white);
+}
+.project > .project-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   flex-wrap: wrap;
+  
+}
+.project > .project-section > div{
+    display: grid;
+    place-items: center;
+    margin: 1rem;
+    flex-basis: 46%;
+    height: 250px;
+    background: #4f62a922;
+    position: relative;
+    opacity: 0.9;
+    border-radius: 1px;
+    
+ 
+}
+.project-section > div > img {
+    position: absolute;
+    padding: 5rem;
+    margin: 0 auto;
+    height: 350px;
+    object-fit: cover;
+ 
+  
+}
+.project-section  > div > .img-overlay{
+    background:rgba(37, 48, 88, 96%);
+    position: absolute;
+    top:0;
+    height:100%;
+    width: 100%;
+    opacity: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: var(--gray);
+}
+.project-section > div > .img-overlay:hover{
+    opacity: 1;
+    transition: .5s all ease-in-out;
+}
+.project-section > div > .img-overlay > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.img-overlay p {
+    color: #B6B7C8;
+    font-size: .9rem;
+    font-weight: 100;
+    text-align: justify;
+}
+/*Skills component style*/
+.skills{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    margin: 2rem 0 0;
+}
+
+.skills > .skills-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+ }
+.skills > .skills-section > div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+    margin: 2rem 0;
+}
+.skills > .skills-section > div > p{
+    width: 150px;
+    margin: 0 1rem;
+    color: var(--gray);
+}
+.contact{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+}
+.contact > div > h1 {
+    font-size: 3rem;
+    color: var(--white);
+}
+.contact> div > p {
+    width: 70%;
+    padding: 1rem;
+    margin: 0 auto;
+    color: var(--gray);
+
+}
+.contact> div > a{
+    padding: 1rem;
+    margin-top: 50px;
+    background: var(--light-blue);
+    border: 2px solid var(--blue-violet);
+    color: var(--white);
+}
+.contact > div > a:hover{
+    background: #354580;
+  }
+
+.footer{
+    text-align: center;
+}
+.footer > div{
+ margin: 1rem 0;
+}
+.footer > div a{
+    padding: 1rem;
+    
+    font-size: 1.3rem;
+}
+.footer > div a ,.footer > div p{
+    color: var(--white);
+}
+.footer > div  p{
+    margin: 1rem 0;
+}
+
+@media (max-width:768px) {
+    .project{
+        height: fit-content;
+    }
+    
+    .logo>h1,.menu-burger{
+        padding: 1rem;
+    }
+    .navBar{
+        width: 100%;
+        justify-content:space-between;
+    }
+   
+    .navLinks {
+        display: none;
+        flex-direction: column;
+        padding: 0;
+        position: absolute;
+        top: 70px;
+        text-align: center;
+        width:100%;
+        background:#222c4f10;
+        z-index: 9999;
+    }
+    .navLinks.active{
+        display: flex;
+    }
+    .menu-burger{
+        display: block;
+    }
+    .home{
+        text-align: center;
+        justify-content: center;
+    }
+    .home > div > p{
+     margin: 0 auto;
+        width: 80%;
+    }
+    .home > div > h1{
+        font-size: 4rem;
+    }
+    .about>.about-section > h1,
+    .project > h1,
+    .skills >div >  h1{
+        font-size: 3rem;
+    }
+    .about{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .about>.about-section > h1{
+       text-align: center;
+        
+    }
+    .about > .about-section > p{
+        text-align: justify;
+     }
+    .about > .about-section > img{
+        width: 350px;
+        height: 350px; 
+    }
+   
+    .project > .project-section{
+        justify-content:center;
+    }
+    .project > h1{
+        text-align: center;
+    }
+    .project > .project-section > div{
+        flex-basis: 70%;
+    }
+    .project-section > div > img {
+       
+       height: 300px;
+    }
+    .skills > div > h1{
+        text-align: center;
+    }
+    .skills  > .skills-section > div{
+        width: 50%;
+    }
+    .contact-section > div > p {
+        width: 100%;
+        text-align: justify;
+    
+    }
+}
+/*For  Smartphones*/
+/* http url  -- https://github.com/patacsilpam/react-portfolio.git*/
+@media (max-width:468px) {
+    .home > div > h1{
+        font-size: 2rem;
+    }
+   
+    .about>.about-section > h1{
+        padding: 1rem;
+    }
+    .project-section > div > img {
+        padding: 2rem;
+       width: 100%;
+     
+      
+    }
+}
