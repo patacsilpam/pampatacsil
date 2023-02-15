@@ -14,7 +14,7 @@ export const Task = () => {
           {projects.map(project => {
             return (
               <div key={project.id}>
-                  <img loading='lazy' src='https://www.google.com/imgres?imgurl=https%3A%2F%2Fmms.businesswire.com%2Fmedia%2F20210216006039%2Fen%2F859393%2F23%2Fvercel.jpg&imgrefurl=https%3A%2F%2Fwww.businesswire.com%2Fnews%2Fhome%2F20210216006039%2Fen%2FVercel-Debuts-Agency-Partner-Program-and-Experts-Marketplace-to-Help-Global-Enterprises-Improve-Web-User-Experience&tbnid=QWd1vQAoVqBjUM&vet=12ahUKEwjvjKzs4Zb9AhXHC94KHfa2BNoQMygDegUIARDkAQ..i&docid=vfNVJwsFxUwnnM&w=1200&h=627&q=vercel&ved=2ahUKEwjvjKzs4Zb9AhXHC94KHfa2BNoQMygDegUIARDkAQ' />
+                  <img loading='lazy' src={svg} />
                   <div className="img-overlay">
                     <div>
                       <a href={project.live_url} target={'_blank'}><FontAwesomeIcon icon={faArrowUpRightFromSquare}  /></a>
