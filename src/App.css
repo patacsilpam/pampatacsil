@@ -412,6 +412,10 @@ hr{
     .about>.about-section > h1{
         padding: 1rem;
     }
+    .about > .about-section > img{
+        width: 250px;
+        height: 250px; 
+    }
     .project-section > div > img {
        padding: 6rem;
     }
