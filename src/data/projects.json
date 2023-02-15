@@ -5,7 +5,7 @@
         "title":"Tap&Eat",
         "description":"An android application that consists of online food ordering and table reservation developed for Mang Macs Marinero Foodshop.",
         "tools":"Java, Android Studio, Retrofit2, PHP, MySQL",
-        "img":"src/assets/soc-med/facebook.png",
+        "img":"src/assets/profile.jpg",
         "live_url":"#",
         "github_link":"https://github.com/patacsilpam/mang-macs-mobile-app"
     },
