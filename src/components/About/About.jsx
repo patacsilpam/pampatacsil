@@ -12,8 +12,10 @@ export const About = () => {
             At uni, I work on projects such as websites, web applications, and mobile applications.
           </p>
           <p>
-            Currently, I am seeking an internship role where I can assist in building software using my technical background and understanding of 
-            various technology areas.
+            I am particularly interested in exploring emerging technologies, 
+            like artificial intelligence, and creating innovative software solutions. 
+            I am committed to staying ahead of the curve, constantly seeking new opportunities 
+            to broaden my skillset and contribute to the advancement of the industry.
           </p>
         </div>
         <div className='about-section'>
