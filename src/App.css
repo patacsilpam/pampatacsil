@@ -161,7 +161,7 @@ hr{
     color: var(--gray);
 }
 .about > .about-section > p{
-    font-size: 1rem;
+    font-size: .8rem;
     margin: 1rem 0;
 }
 .about > .about-section > img{
