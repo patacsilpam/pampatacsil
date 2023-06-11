@@ -17,7 +17,7 @@ export const About = () => {
               Currently, I am highly interested in pursuing the development of both mobile and web applications. 
               My  experienced in web development, mobile application development, and AI prompts engineering, 
               coupled with my dedication to continuous learning, positions me as a capable and motivated 
-              ready to make a meaningful impact in the industry.
+              to make a meaningful impact in the industry.
           </p>
           <p>
             
