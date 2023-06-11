@@ -9,7 +9,7 @@ export const About = () => {
               I graduated with a Bachelor of Science in Information Technology from Urdaneta City University. 
               Throughout my academic journey, I developed several projects including static websites, 
               android mobile applications, and full-stack web applications. <br /><br />
-              During my internship at TMDC IT SOLUTIONS further enhanced my skills and knowledge in the field. 
+              During my internship, it enhanced my skills and knowledge in the field. 
               As an AI Prompt Engineer, I was responsible for designing and fine-tuning prompts to optimize 
               the performance of their conversational AI system.  
               This role required a deep understanding of natural language processing and machine learning techniques, 
