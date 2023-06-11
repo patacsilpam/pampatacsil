@@ -5,8 +5,7 @@ export const Contact = () => {
   return (
     <section className='contact' id='contact'>
         <div>
-            <h1>Get in touch</h1>
-            <p>I would be happy to discuss my experiences with you more, write me an email or message me on LinkedIn!</p><br />
+            <h1>Let's connect!</h1><br /><br />
             <a href="mailto:pammpatacsil@gmail.com" className='email'>pammpatacsil@gmail.com</a>
         </div>
     </section>
