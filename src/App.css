@@ -147,7 +147,7 @@ hr{
     margin: 10rem 0;
 }
 .about > .about-section{
-    width: 100%;
+    width: 100%; 
     padding: 1rem;
     margin: 1rem 0;
    
@@ -161,8 +161,9 @@ hr{
     color: var(--gray);
 }
 .about > .about-section > p{
-    font-size: .8rem;
+    font-size: .875rem;
     margin: 1rem 0;
+    width: 550px;
 }
 .about > .about-section > img{
     width: 350px;
@@ -371,6 +372,7 @@ hr{
     }
     .about > .about-section > p{
         text-align: justify;
+        width: 100%;
      }
     .about > .about-section > img{
         width: 350px;
