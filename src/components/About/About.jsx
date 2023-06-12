@@ -13,14 +13,13 @@ export const About = () => {
               I was responsible for designing and fine-tuning prompts to optimize 
               the performance of their conversational AI system.  
               This role required a deep understanding of natural language processing and machine learning techniques, 
-              as well as a creative mindset to generate effective prompts that improved the model's performance.<br/><br />
+              as well as a creative mindset to generate effective prompt that improved the model's performance.<br/><br />
               Currently, I am highly interested in pursuing the development of both mobile and web applications. 
-              My  experienced in web development, mobile application development, and AI prompts engineering, 
+              My experienced in web development, mobile application development, and AI prompt engineering, 
               coupled with my dedication to continuous learning, positions me as a capable and motivated 
               to make a meaningful impact in the industry.
           </p>
           <p>
-            
             {/*
               I am particularly interested in exploring emerging technologies, 
               like artificial intelligence, and creating innovative software solutions. 
@@ -38,7 +37,7 @@ export const About = () => {
               This opportunity not only honed my skills but also provided valuable insights 
               into the practical applications of AI in real-world scenarios.
               Currently, I am highly interested in pursuing the development of both mobile and web applications. 
-              My  experienced in web development, mobile application development, and AI prompts engineering, 
+              My experienced in web development, mobile application development, and AI prompts engineering, 
               coupled with my dedication to continuous learning, positions me as a capable and motivated 
               ready to make a meaningful impact in the industry.
             */}
