@@ -9,7 +9,7 @@ export const Home = () => {
           <div>
             <span >&#128075; Hello, I'm</span>
             <h1><span>Pam Patacsil</span></h1>
-            <p>I have a huge passion on developing web & mobile applications.</p>
+            <p>I have a huge passion on developing  web & mobile applications.</p>
             <div><br />
               <a href={resume} className='btn-download-cv' target="_blank">Resume</a>
             </div>
