@@ -6,18 +6,15 @@ export const About = () => {
         <div className='about-section'>
           <h1>About Me</h1>
           <p>
-              I graduated with a Bachelor of Science in Information Technology from Urdaneta City University. 
-              Throughout my academic journey, I developed several projects including static websites, 
-              android mobile applications, and full-stack web applications. <br /><br />
-              During my internship, I was assigned as an AI Prompt Engineer. 
-              I was responsible for designing and fine-tuning prompts to optimize 
-              the performance of their conversational AI system.  
-              This role required a deep understanding of natural language processing and machine learning techniques, 
-              as well as a creative mindset to generate effective prompt that improved the model's performance.<br/><br />
-              Currently, I am highly interested in pursuing the development of both mobile and web applications. 
-              My experienced in web development, mobile application development, and AI prompt engineering, 
-              coupled with my dedication to continuous learning, positions me as a capable and motivated 
-              to make a meaningful impact in the industry.
+            I graduated with a Bachelor of Science in Information Technology from Urdaneta City University. 
+            Throughout college, I immersed myself in various projects that allowed me to hone my skills in developing software. 
+            I successfully developed static websites, Android mobile applications, and full-stack web applications. <br /><br />
+            During my internship, I was assigned as an AI Prompt Engineer, where my responsibilities included crafting and fine-tuning prompts to optimize 
+            the performance of the conversational AI model. I took great pride in my contributions, as my efforts played a crucial role 
+            in enhancing conversational AI's capabilities. <br /><br />
+            Currently, I am highly interested in pursuing software development.  
+            I have a huge passion for building software, as it allows me to combine my technical skills with my problem-solving abilities. 
+            I find personal satisfaction in turning ideas into functional and user-friendly software solutions. 
           </p>
           <p>
             {/*
