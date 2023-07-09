@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from 'react'
-import resume from '../../assets/pdf/PATACSIL_PAMELA_M - RESUME.pdf'
+import resume from '../../assets/pdf/PATACSIL_PAMELA - RESUME.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 export const Home = () => { 
