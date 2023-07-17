@@ -6,7 +6,7 @@ export const About = () => {
         <div className='about-section'>
           <h1>About Me</h1>
           <p>
-            Hi! My name is Pamela. You can call me Pam. I graduated with a Bachelor's degree in Information Technology from Urdaneta City University. 
+            Hi! My name is Pamela. You can call me Pam. I graduated with an IT degree from Urdaneta City University. 
             Throughout college, I immersed myself in various projects that allowed me to hone my skills in developing software. 
             I successfully developed static websites, Android mobile applications, and full-stack web applications. <br /><br />
              <br /><br />
