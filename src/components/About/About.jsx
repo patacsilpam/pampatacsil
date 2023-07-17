@@ -6,18 +6,19 @@ export const About = () => {
         <div className='about-section'>
           <h1>About Me</h1>
           <p>
-            I graduated with a Bachelor of Science in Information Technology from Urdaneta City University. 
+            Hi! My name is Pamela. You can call me Pam. I graduated with a Bachelor's degree in Information Technology from Urdaneta City University. 
             Throughout college, I immersed myself in various projects that allowed me to hone my skills in developing software. 
             I successfully developed static websites, Android mobile applications, and full-stack web applications. <br /><br />
-            During my internship, I was assigned as an AI Prompt Engineer, where my responsibilities included crafting and fine-tuning prompts to optimize 
-            the performance of the conversational AI model. I took great pride in my contributions, as my efforts played a crucial role 
-            in enhancing conversational AI's capabilities. <br /><br />
-            Currently, I am highly interested in pursuing software development.  
+             <br /><br />
+            I am highly interested in pursuing software development.  
             I have a huge passion for building software, as it allows me to combine my technical skills with my problem-solving abilities. 
             I find personal satisfaction in turning ideas into functional and user-friendly software solutions. 
           </p>
           <p>
             {/*
+              During my internship, I was assigned as an AI Prompt Engineer, where my responsibilities included crafting and fine-tuning prompts to optimize 
+              the performance of the conversational AI model. I took great pride in my contributions, as my efforts played a crucial role 
+              in enhancing conversational AI's capabilities.
               I am particularly interested in exploring emerging technologies, 
               like artificial intelligence, and creating innovative software solutions. 
               I am committed to staying ahead of the curve, constantly seeking new opportunities 
