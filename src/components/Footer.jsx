@@ -11,6 +11,7 @@ export const Footer = () => {
                 <a href="https://github.com/patacsilpam" target='_blank'><FontAwesomeIcon icon={faGithub} /></a>
             </div>
             <div>
+                <p>Built with ReactJS.</p>
                 <p>© 2023 Pamela M. Patacsil. All Rights Reserved</p>
             </div>
         </div>
