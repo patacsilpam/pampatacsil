@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
 :root{
-    --blue-violet:#5A82FC;
-    --dark-blue:#141726;
+    --blue-violet:#9024FF; /*text-color*/
+    --dark-blue:#06060F; /*bg-color*/
     --white:#E1E1E1;
     --light-blue:#253058;
     --gray:#B6B7C8;
@@ -167,7 +167,7 @@ hr{
 }
 .about > .about-section > img{
     width: 350px;
-    height: 300px;
+    height: 350px;
     border-radius: 3px;
     display: block;
     margin: 0 auto;
@@ -185,7 +185,7 @@ hr{
     display: flex;
     justify-content: space-between;
     align-items: center;
-   flex-wrap: wrap;
+    flex-wrap: wrap;
   
 }
 .project > .project-section > div{
@@ -193,12 +193,12 @@ hr{
     place-items: center;
     margin: 1rem;
     flex-basis: 46%;
-    height: 250px;
+    height: 400px;
     background: #4f62a922;
     position: relative;
     opacity: 0.9;
     border-radius: 1px;
-    
+   
  
 }
 .project-section > div > img {
@@ -207,8 +207,6 @@ hr{
     margin: 0 auto;
     height: 350px;
     object-fit: cover;
- 
-  
 }
 .project-section  > div > .img-overlay{
     background:rgba(37, 48, 88, 96%);
@@ -220,7 +218,7 @@ hr{
     padding: 1rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     color: var(--gray);
 }
 .project-section > div > .img-overlay:hover{
@@ -232,6 +230,10 @@ hr{
     flex-direction: row;
     justify-content: space-between;
 }
+.project-section > div > .img-overlay > div:nth-child(2) {
+    flex-direction:column;
+    margin:5rem 0;
+}
 .img-overlay p {
     color: #B6B7C8;
     font-size: .9rem;
@@ -242,7 +244,6 @@ hr{
 .skills{
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     margin: 2rem 0 0;
 }
