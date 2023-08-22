@@ -1,5 +1,5 @@
 import React,{useRef,useEffect} from 'react'
-import resume from '../../assets/pdf/PATACSIL_PAMELA - RESUME.pdf'
+import resume from '../../assets/pdf/Patacsil,Pamela-Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
 export const Home = () => { 
@@ -9,7 +9,7 @@ export const Home = () => {
           <div>
             <span >&#128075; Hello, I'm</span>
             <h1><span>Pam Patacsil</span></h1>
-            <p>I have a huge passion on developing  web & mobile applications.</p>
+            <p>A passionate software developer who turns dreams into code, one line at a time.</p>
             <div><br />
               <a href={resume} className='btn-download-cv' target="_blank">Resume</a>
             </div>
