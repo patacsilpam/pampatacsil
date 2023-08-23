@@ -42,7 +42,7 @@ export const About = () => {
           </p>
         </div>
         <div className='about-section'>
-          <img src={img} alt="" />
+          <img src={img} alt="Pam Patacsil" />
         </div>
       </section>
   )
