@@ -310,11 +310,12 @@ hr{
     
     font-size: 1.3rem;
 }
-.footer > div a ,.footer > div p{
+.footer > div a {
     color: var(--white);
 }
 .footer > div  p{
-    margin: 1rem 0;
+    margin: .5rem 0;
+   color:#cfcfd1;
 }
 
 @media (max-width:768px) {
