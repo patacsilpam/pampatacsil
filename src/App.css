@@ -209,7 +209,7 @@ hr{
     object-fit: cover;
 }
 .project-section  > div > .img-overlay{
-    background:rgba(37, 48, 88, 96%);
+    background:rgba(10, 13, 24, 0.76);
     position: absolute;
     top:0;
     height:100%;
