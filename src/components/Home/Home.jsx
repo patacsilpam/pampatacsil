@@ -1,17 +1,23 @@
 import React,{useRef,useEffect} from 'react'
+import { NavHashLink } from 'react-router-hash-link';
 import resume from '../../assets/pdf/Patacsil,Pamela-Resume.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faFileArrowDown } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom';
 export const Home = () => { 
  
   return (
-      <section className='home' id='home'>
+      <section className='home'>
           <div>
-            <span >&#128075; Hello, I'm</span>
-            <h1><span>Pam Patacsil</span></h1>
-            <p>A passionate software developer who turns dreams into code, one line at a time.</p>
-            <div><br />
-              <a href={resume} className='btn-download-cv' target="_blank">Resume</a>
+            <span >&#128075; Hello there, I am</span>
+            <h1><span>Pamela Patacsil</span></h1>
+            <p>A passionate software developer based in the Philippines, who turns dreams into code, one line at a time.</p><br />
+            <div className='link-section'>
+              <div>
+                <a href="/#contact" id='btn-get-in-touch' target="_blank">Get in Touch</a>
+              </div>
+              <div>
+                <a href={resume} id='btn-download-cv' target="_blank">Resume</a>
+              </div>
             </div>
           </div>
       </section>
