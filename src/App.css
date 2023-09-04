@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;800&display=swap');
 :root{
-    --blue-violet:#7A00F6; /*text-color*/
+    --blue-violet:#594BFF; /*text-color*/
     --dark-blue:#06060F; /*bg-color*/
     --white:#E1E1E1;
     --light-blue:#253058;
-    --gray:#B6B7C8;
+    --gray:#cecfe0;
+    --gradient: linear-gradient(to bottom, #7256F8,#3938EB);
 }
 *{
     margin:0;
@@ -26,9 +27,14 @@ hr{
 }
 .route-con{
     position: relative;
-   max-width: 960px;
+    max-width: 960px;
     margin: 0 auto;
  
+}
+.route-con > div{
+    display: flex;
+    flex-direction: column;
+    gap: 20rem;
 }
 
 /*navbar style*/
@@ -39,6 +45,13 @@ hr{
     width: 100%;
     z-index: 9999;
 }*/
+.logo > h1,
+.home > div > h1{
+    background: var(--gradient);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+   
+}
 .navBar{
   display: flex;
   flex-direction: row;
@@ -46,10 +59,11 @@ hr{
   padding: 1rem 0;
 }
 .logo > h1{
-    letter-spacing: 2px;
+    letter-spacing: -4px;
     color: var(--white);
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.5rem;
+    font-weight: 900;
+   
 }
 
 .navLinks{
@@ -75,7 +89,8 @@ hr{
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: var(--blue-violet);
+    background-color: var(--blue-violet );
+   
     transform-origin: center;
     transition: transform .2s ease-out;
 }
@@ -84,8 +99,8 @@ hr{
     transform-origin: center;
 }
 .navLinks li a:hover{
-    color: var(--blue-violet);
     transition: 1s ease-out;
+    color: var(--blue-violet);
 }
 
 .menu-burger{
@@ -101,7 +116,7 @@ hr{
 }
 /*home section style*/
 .home{
-    height: 100vh;
+   
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -111,19 +126,21 @@ hr{
     margin-top: -5rem;
 }
 .home > div > span {
-    font-size: 2rem;
+    font-size: 1.5rem;
     letter-spacing: 1px;
+    color: var(--gray);
 }
 .home > div > h1{
     font-size: 4.5rem;
     letter-spacing: 1px;
+  
 }
 .home> div > h1 > span{
     color: var(--blue-violet);
 }
 .home > div > p{
     color: var(--gray);
-    width: 500px;
+    width: 600px;
     line-height: 30px;
     font-size: 1.1rem;
 }
@@ -138,6 +155,38 @@ hr{
     background: var(--light-blue);
     color: var(--white);
 }
+.link-section{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+#btn-download-cv,#btn-get-in-touch{
+    display: inline-block;
+    width: 150px;
+    text-align: center;
+}
+#btn-get-in-touch{
+    color: #FFF;
+    border:  1px solid var(--blue-violet);
+}
+#btn-get-in-touch:hover{
+    background: #6254ff;
+    border-bottom: 10px solid #5647f9;
+    margin-top: -1px;
+    transition:.5s ease-in-out;
+}
+#btn-download-cv{
+    color: #FFFFFF;
+    background:var(--blue-violet);
+   
+}
+#btn-download-cv:hover{
+    background: #6254ff;
+    border-top: 10px solid #5647f9;
+    transition:.2s ease-in;
+}
+/*
+
 /*About me style*/
 .about{
     display: flex;
@@ -275,7 +324,7 @@ hr{
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    height: 100vh;
+   
 }
 .contact > div > h1 {
     font-size: 3rem;
@@ -323,7 +372,9 @@ hr{
     .project{
         height: fit-content;
     }
-    
+    .link-section{
+        justify-content: center;
+    }
     .logo>h1,.menu-burger{
         padding: 1rem;
     }
@@ -358,7 +409,7 @@ hr{
         width: 80%;
     }
     .home > div > h1{
-        font-size: 4rem;
+        font-size: 3.5rem;
     }
     .about>.about-section > h1,
     .project > h1,
@@ -424,4 +475,5 @@ hr{
     .project-section > div > img {
        padding: 6rem;
     }
+    
 }
