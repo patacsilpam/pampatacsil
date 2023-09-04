@@ -1,6 +1,6 @@
 import React,{useRef,useEffect} from 'react'
 import { NavHashLink } from 'react-router-hash-link';
-import resume from '../../assets/pdf/Patacsil,Pamela-Resume.pdf'
+import resume from '../../assets/pdf/Patacsil,Pamela-CV.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
