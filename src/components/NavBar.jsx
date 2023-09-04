@@ -13,20 +13,20 @@ export const NavBar = () => {
     <div className='navBar-fixed'>
       <div className='navBar'>
         <div className='logo'>
-          <h1>Pam</h1>
+          <h1>PAM</h1>
         </div>
         <ul className={`navLinks  ${showNav ? 'active' : ''}`}>
           <li>
-            <NavHashLink smooth to="/#home"  style={isActive("#home")? {color: "#5A82FC"} : {}}>Home</NavHashLink>
+            <NavHashLink smooth to="/#home"  style={isActive("#home")? {color: "#594BFF"} : {}}>Home</NavHashLink>
            </li>
            <li>
-            <NavHashLink smooth to="/#about" style={isActive("#about")? {color: "#5A82FC"} : {}}>About</NavHashLink>
+            <NavHashLink smooth to="/#about" style={isActive("#about")? {color: "#594BFF"} : {}}>About</NavHashLink>
            </li>
            <li>
-            <NavHashLink smooth to="/#projects" style={isActive("#projects")? {color: "#5A82FC"} : {}}>Projects</NavHashLink>
+            <NavHashLink smooth to="/#projects" style={isActive("#projects")? {color: "#594BFF"} : {}}>Projects</NavHashLink>
            </li>
            <li>
-            <NavHashLink smooth to="/#contact" style={isActive("#contact")? {color: "#5A82FC"} : {}}>Contact</NavHashLink>
+            <NavHashLink smooth to="/#contact" style={isActive("#contact")? {color: "#594BFF"} : {}}>Contact</NavHashLink>
            </li>
            
         </ul>
