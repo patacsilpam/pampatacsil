@@ -4,8 +4,13 @@ import resume from '../../assets/pdf/Patacsil,Pamela-CV.pdf'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { Link } from 'react-router-dom';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { motion,useScroll } from 'framer-motion';
+motion
 export const Home = () => { 
- 
+  const boxVariant = {
+    visible: { opacity: 1, scale: 1, transition: {duration: 0.5}},
+    hidden: { opacity: 0, scale: 0 },
+  }
   return (
       <section className='home'>
           <div>
