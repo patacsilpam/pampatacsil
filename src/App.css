@@ -343,9 +343,9 @@ form > input,textarea{
 form> #btn-submit{
     border-radius: 50px;
     background: var(--gradient);
+    margin-top: 20px;
 }
 form> #btn-submit:hover{
-   
     background: var(--blue-violet);
 }
 ::placeholder{
