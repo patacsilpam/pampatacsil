@@ -5,7 +5,7 @@ import { useRef } from 'react';
 import { faEnvelope, faPhone, } from '@fortawesome/free-solid-svg-icons';
 export const Contact = () => {
   const form = useRef();
-
+  const [message,setMessage] = useState('');
   const sendEmail = (e) => {
     e.preventDefault();
 
@@ -15,7 +15,7 @@ export const Contact = () => {
       form.current,
       'WLxuJOOeahdG1w9Xa')
       .then((result) => {
-          console.log(result.text);
+          setMessage('Message sent successfully');
       }, (error) => {
           console.log(error.text);
       });
@@ -40,9 +40,10 @@ export const Contact = () => {
             <input type="text" name="user_name" placeholder='Full Name' />
             <label>Email</label>
             <input type="email" name="user_email" placeholder='Email address' />
-            <input type="email" name="to_email" value="pammpatacsil@gmail.com" hidden/>
+            <input type="email" name="to_email" value="pamelampatacsil@gmail.com" hidden/>
             <label>Message</label>
             <textarea name="message"  placeholder='Your Message'/>
+            <p>{message}</p>
             <input type="submit" id='btn-submit' value="Send" />
           </form>
       </div>
