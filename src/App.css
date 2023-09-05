@@ -36,6 +36,12 @@ hr{
     flex-direction: column;
     gap: 20rem;
 }
+.project > h1,.about >
+.about-section > h1,
+.contact > div > h1{
+    font-size: 3rem;
+    color: var(--blue-violet);
+}
 
 /*navbar style*/
 /*
@@ -50,7 +56,6 @@ hr{
     background: var(--gradient);
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
-   
 }
 .navBar{
   display: flex;
@@ -133,7 +138,6 @@ hr{
 .home > div > h1{
     font-size: 4.5rem;
     letter-spacing: 1px;
-  
 }
 .home> div > h1 > span{
     color: var(--blue-violet);
@@ -190,20 +194,17 @@ hr{
 /*About me style*/
 .about{
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-around;
     align-items: center;
-    margin: 10rem 0;
+  
+    
 }
 .about > .about-section{
     width: 100%; 
     padding: 1rem;
     margin: 1rem 0;
    
-}
-.about > .about-section > h1{
-    font-size: 3rem;
-    margin-top: -1rem;
 }
 .about > .about-section > p,
 .about > .about-section >p> b{
@@ -224,12 +225,7 @@ hr{
     
 }
 /*Task component stye*/
-.project > h1{
-    font-size: 3rem;
-    margin: 0 1rem;
-    text-align: left;
-    color: var(--white);
-}
+
 .project > .project-section{
     display: flex;
     justify-content: space-between;
@@ -247,8 +243,6 @@ hr{
     position: relative;
     opacity: 0.9;
     border-radius: 1px;
-   
- 
 }
 .project-section > div > img {
     position: absolute;
@@ -319,35 +313,44 @@ hr{
     color: var(--gray);
 }
 .contact{
-   
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contact > div, 
+.contact> div:nth-child(2)>form {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    text-align: center;
+    width: 100%;
+    gap: 1rem;
+}
+
+.contact > div >  span > .icon {
+   color:green;
+   height:25px;
+   border-radius:50px;
+   padding:7px;
+   background:var(--gradient);
    
 }
-.contact > div > h1 {
-    font-size: 3rem;
-    color: var(--white);
+form > input,textarea{
+    background: #220F3F;
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 3px;
 }
-.contact> div > p {
-    width: 70%;
-    padding: 1rem;
-    margin: 0 auto;
+form> #btn-submit{
+    border-radius: 50px;
+    background: var(--gradient);
+}
+form> #btn-submit:hover{
+   
+    background: var(--blue-violet);
+}
+::placeholder{
     color: var(--gray);
-
 }
-.contact> div > a{
-    padding: 1rem;
-    margin-top: 50px;
-    background: var(--light-blue);
-    border: 2px solid var(--blue-violet);
-    color: var(--white);
-}
-.contact > div > a:hover{
-    background: #354580;
-  }
-
 .footer{
     text-align: center;
 }
@@ -452,10 +455,14 @@ hr{
     .skills  > .skills-section > div{
         width: 50%;
     }
+    .contact{
+        gap: 2rem;
+        flex-direction: column;
+        padding: 1rem;
+    }
     .contact-section > div > p {
         width: 100%;
         text-align: justify;
-    
     }
 }
 /*For  Smartphones*/
