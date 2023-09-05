@@ -420,7 +420,7 @@ form> #btn-submit:hover{
         font-size: 3rem;
     }
     .about{
-        flex-direction: column;
+        flex-direction: column-reverse;
         justify-content: flex-start;
     }
     .about>.about-section > h1{
