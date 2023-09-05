@@ -8,8 +8,8 @@ import { faArrowRightLong, faArrowUp, faArrowUpRightFromSquare, faFolderBlank, f
 
 export const Task = () => {
   return (
-    <section className='project' id='projects'>
-      <h1>Projects</h1>
+  <section className='project' id='projects'>
+      <h1>FEATURED PROJECTS</h1>
       <div className="project-section">
           {projects.map(project => {
             return (
