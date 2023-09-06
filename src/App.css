@@ -39,7 +39,7 @@ hr{
 .project > h1,.about >
 .about-section > h1,
 .contact > div > h1{
-    font-size: 3rem;
+    font-size: 2rem;
     color: var(--blue-violet);
 }
 
@@ -113,8 +113,8 @@ hr{
     display: none;
 }
 .menu-burger>div{
-    height: 4px;
-    width: 40px;
+    height: 3px;
+    width: 35px;
     border-radius: 2px;
     margin: .5rem;
     background: var(--white);
@@ -146,7 +146,7 @@ hr{
     color: var(--gray);
     width: 600px;
     line-height: 30px;
-    font-size: 1.1rem;
+    font-size: 1rem;
 }
 .home > div a {
     padding: .7rem;
@@ -210,22 +210,76 @@ hr{
 .about > .about-section >p> b{
     color: var(--gray);
 }
+.about > .about-section > h3{
+    color: var(--blue-violet);
+    font-size: 1.3rem;
+}
 .about > .about-section > p{
     font-size: .875rem;
     margin: 1rem 0;
     width: 550px;
 }
 .about > .about-section > img{
-    width: 350px;
+    width: 100%;
     height: 350px;
     border-radius: 3px;
-    display: block;
-    margin: 0 auto;
     box-shadow: -5px 10px 31px 0px rgba(46, 40, 79, 0.201);
     
 }
-/*Task component stye*/
+.project > .project-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.project > .project-section > div{
+    display: grid;
+    place-items: center;
+    margin: 5px;
+    width:46%;
+    height: 400px;
+    background: #4f62a922;
+    position: relative;
+    opacity: 0.9;
+    border-radius: 1px;
+}
+.project-section > div > img {
+    position: absolute;
+    padding: 5rem;
+    margin: 0 auto;
+    height: 300px;
+    object-fit: cover;
+}
 
+.project-section  > div > .img-overlay{
+    background:rgba(10, 13, 24, 0.76);
+    position: absolute;
+    top:0;
+    height:100%;
+    width: 100%;
+    opacity: 0;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: var(--gray);
+}
+.project-section > div > .img-overlay:hover{
+    opacity: 1;
+    transition: .5s all ease-in-out;
+}
+.project-section > div > .img-overlay > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.project-section > div > .img-overlay > div:nth-child(2) {
+    flex-direction:column;
+    margin:5rem 0;
+}
+/*Task component stye*/
+/*
 .project > .project-section{
     display: flex;
     justify-content: space-between;
@@ -276,7 +330,7 @@ hr{
 .project-section > div > .img-overlay > div:nth-child(2) {
     flex-direction:column;
     margin:5rem 0;
-}
+}*/
 .img-overlay p {
     color: #B6B7C8;
     font-size: .9rem;
@@ -370,22 +424,16 @@ form> #btn-submit:hover{
    color:#cfcfd1;
    
 }
-
-@media (max-width:768px) {
-    .project{
-        height: fit-content;
-    }
-    .link-section{
-        justify-content: center;
-    }
-    .logo>h1,.menu-burger{
-        padding: 1rem;
+@media (max-width:768px){
+    .about>.about-section > h1,
+    .project > h1,
+    .skills >div >  h1{
+        font-size: 2rem;
     }
     .navBar{
         width: 100%;
         justify-content:space-between;
     }
-   
     .navLinks {
         display: none;
         flex-direction: column;
@@ -403,8 +451,47 @@ form> #btn-submit:hover{
     .menu-burger{
         display: block;
     }
-    .home{
-        text-align: center;
+    .logo>h1,.menu-burger{
+        padding: .3rem;
+    }
+    .home > div > h1{
+        font-size: 3rem;
+    }
+    .home > div > p{
+        font-size: 16px;
+        width: 70%;
+    }
+    /*project*/
+    .project > .project-section > div{
+        flex-basis: 100%;
+    }
+    /*about*/
+    .about{
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+    }
+    .about > .about-section > p{
+        text-align: justify;
+        width: 100%;
+     }
+    .about > .about-section > img{
+        height: 500px; 
+    }
+    .contact{
+        gap: 2rem;
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .contact-section > div > p {
+        width: 100%;
+        text-align: justify;
+    }
+}
+/*@media (max-width:768px) {
+    .project{
+        height: fit-content;
+    }
+    .link-section{
         justify-content: center;
     }
     .home > div > p{
@@ -417,36 +504,27 @@ form> #btn-submit:hover{
     .about>.about-section > h1,
     .project > h1,
     .skills >div >  h1{
-        font-size: 3rem;
+        font-size: 2rem;
     }
     .about{
         flex-direction: column-reverse;
         justify-content: flex-start;
-    }
-    .about>.about-section > h1{
-       text-align: center;
-        
     }
     .about > .about-section > p{
         text-align: justify;
         width: 100%;
      }
     .about > .about-section > img{
-        width: 350px;
-        height: 350px; 
+        width: 500px;
+        height: 500px; 
     }
    
-    .project > .project-section{
-        justify-content:center;
-    }
+    
     .project > h1{
         text-align: center;
     }
-    .project > .project-section > div{
-        flex-basis: 70%;
-    }
+    
     .project-section > div > img {
-       
        height: 300px;
     }
     .skills > div > h1{
@@ -464,23 +542,26 @@ form> #btn-submit:hover{
         width: 100%;
         text-align: justify;
     }
-}
+}*/
 /*For  Smartphones*/
 /* http url  -- https://github.com/patacsilpam/react-portfolio.git*/
 @media (max-width:468px) {
-    .home > div > h1{
-        font-size: 2rem;
+    .home > div > span {
+        font-size: 1rem;
+        
     }
-   
-    .about>.about-section > h1{
-        padding: 1rem;
+    .home > div > h1 {
+        font-size: 2rem;
+        width:100%;
+    }
+    .home > div > p{
+        font-size: 1rem;
+        width:100%;
     }
     .about > .about-section > img{
-        width: 250px;
-        height: 250px; 
+    
+        height: 350px; 
     }
-    .project-section > div > img {
-       padding: 6rem;
-    }
+    
     
 }
