@@ -236,7 +236,7 @@ hr{
 .project > .project-section > div{
     display: grid;
     place-items: center;
-    margin: 5px;
+    margin: 1rem;
     width:46%;
     height: 400px;
     background: #4f62a922;
@@ -393,6 +393,10 @@ form > input,textarea{
     border: none;
     padding: 10px;
     border-radius: 3px;
+   
+}
+textarea{
+    resize: vertical;
 }
 form> #btn-submit{
     border-radius: 50px;
