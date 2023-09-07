@@ -20,6 +20,9 @@ export const Contact = () => {
           console.log(error.text);
       });
   };
+  const handleChange = () => {
+
+  }
   return (
          
     <section className='contact' id='contact'>
@@ -37,10 +40,10 @@ export const Contact = () => {
       <div>
           <form ref={form} onSubmit={sendEmail}>
             <label>Name</label>
-            <input type="text" name="user_name" placeholder='Full Name' />
+            <input type="text" name="user_name"  placeholder='Full Name' />
             <label>Email</label>
             <input type="email" name="user_email" placeholder='Email address' />
-            <input type="email" name="to_email" value="pamelampatacsil@gmail.com" hidden/>
+            <input type="email" name="to_email" readOnly value="pamelampatacsil@gmail.com" hidden/>
             <label>Message</label>
             <textarea name="message"  placeholder='Your Message'/>
             <p>{message}</p>
