@@ -32,10 +32,7 @@ export const Contact = () => {
               <FontAwesomeIcon icon={faEnvelope} size='xl' className='icon'/>&emsp;
               <span>pamelampatacsil@gmail.com</span>
             </span>
-          <span>
-            <FontAwesomeIcon icon={faPhone} size='xl' className='icon'/>&emsp;
-            <span style={{marginLeft:5}}>(+63) 919-3720-476</span>
-          </span>
+          
       </div>
       <div>
           <form ref={form} onSubmit={sendEmail}>

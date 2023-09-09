@@ -1,9 +1,18 @@
 import React from 'react'
 import img from '../../assets/profile.jpg'
+import { motion } from 'framer-motion'
 export const About = () => {
+  const variants = {
+    visible: { opacity: 1 },
+    hidden: { opacity: 0 },
+    duration:{transition: 5}
+  }
   return (
     <section className='about' id='about'>
-        <div className='about-section'>
+        <motion.div initial="hidden"
+      whileInView="visible"
+      viewport={{ once: true }}
+      variants={variants} className='about-section'>
           <h3>PAMELA M. PATACSIL</h3>
           <p>
             Hi! My name is Pamela. You can call me Pam. I graduated with an IT degree from Urdaneta City University. 
@@ -14,7 +23,7 @@ export const About = () => {
             I have a huge passion for building software, as it allows me to combine my technical skills with my problem-solving abilities. 
             I find personal satisfaction in turning ideas into functional and user-friendly software solutions. 
           </p>
-        </div>
+        </motion.div>
         <div className='about-section'>
           <h1>ABOUT ME</h1>
           <img src={img} alt="Pam Patacsil" />
