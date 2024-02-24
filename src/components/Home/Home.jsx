@@ -14,7 +14,7 @@ export const Home = () => {
           <div>
             <span >&#128075; Hello there, I am</span>
             <h1><span>Pamela Patacsil</span></h1>
-            <p>A passionate software developer based in the Philippines, who turns dreams into code, one line at a time.</p><br />
+            <p>Software Developer U+1F469</p><br />
             <div className='link-section'>
               <div>
                 <a href="/#contact" id='btn-get-in-touch' target="_blank">Get in Touch</a>
