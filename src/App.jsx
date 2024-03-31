@@ -9,6 +9,7 @@ import { Skills } from "./components/About/Skills";
 import { Footer } from "./components/Footer";
 import React, { useRef } from "react";
 import { motion, useScroll, useTransform } from "framer-motion";
+import { Analytics } from "@vercel/analytics/react"
 function App() {
   const ref = useRef(null);
   const { scrollYProgress } = useScroll({
@@ -30,6 +31,7 @@ function App() {
             </div>
         </div>
       </motion.div>
+      <Analytics/>
     </div>
   )
 }
