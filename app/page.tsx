@@ -12,11 +12,11 @@ export default function Home() {
       <div>
         <FloatingNav navItems={navItems} />
         <Hero />
-        <Services />
-        <TechStack />
         <Projects />
+        <TechStack /> 
         <Contact />
         <Footer />
+        {/**<Services /> */}
       </div>
     </main>
   );
