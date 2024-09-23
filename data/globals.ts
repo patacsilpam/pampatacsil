@@ -2,9 +2,9 @@ import {
   Linkedin,
   Github,
   Mail,
-  Terminal,
-  PenTool,
-  BotMessageSquare,
+  NotebookPen,
+  Rocket,
+  FolderCode,
 } from "lucide-react";
 
 export const navItems = [
@@ -28,24 +28,24 @@ export const navItems = [
 export const services = [
   {
     id: 1,
-    icon: Terminal,
-    title: "Web/Mobile Development",
+    icon: NotebookPen,
+    title: "Phase 1",
     description:
-      "I provide personalized web and mobile development services tailored to your unique needs, from custom e-commerce platforms to specialized front-end and back-end solutions. ",
+      "We’ll start by discussing your project’s objectives and mapping out the scope. I’ll work with you to gather requirements, research the best technical solutions, and create a detailed plan with timelines and milestones. You’ll also see wireframes and prototypes to get early feedback on the design.",
   },
   {
     id: 2,
-    icon: PenTool,
-    title: "UX/UI Design",
+    icon: FolderCode,
+    title: "Phase 2",
     description:
-      "I create intuitive, engaging interfaces that prioritize user experience. Every design choice is made with your audience in mind, ensuring that your products are not just visually appealing but also easy to navigate. ",
+      "With the plan in place, I’ll dive into the design and coding process. I’ll work on the system architecture, finalizing the UI/UX, and building out both the frontend and backend. Throughout this phase, I’ll keep you in the loop with progress updates and ensure everything stays on track.",
   },
   {
     id: 3,
-    icon: BotMessageSquare,
-    title: "AI Prompt Engineering",
+    icon: Rocket,
+    title: "Phase 3",
     description:
-      "Leverage the power of AI with custom prompt engineering designed specifically for your needs. I tailor prompts to ensure that AI-generated content fits your brand voice and objectives, enhancing your content creation and operational efficiency.",
+      "This is where the magic happens! After rigorous testing to ensure everything functions smoothly, I’ll deploy the project to production. I’ll also provide training and documentation, ensuring you have everything you need for a successful launch. From there, I’ll continue monitoring and maintaining the software, keeping it up-to-date and performing well.",
   },
 ];
 

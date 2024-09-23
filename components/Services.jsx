@@ -1,5 +1,6 @@
 import React from "react";
 import { services } from "@/data/globals";
+import MagicButton from "./ui/MagicButton";
 const Services = () => {
   return (
     <div
@@ -8,28 +9,22 @@ const Services = () => {
     >
       <div className="text-white text-center md:space-y-5 space-y-1">
         <h1 className="md:text-5xl text-2xl  font-light">
-          Envision. Craft. Engage
+          My Approach
         </h1>
-        <div className="max-w-2xl">
-          <p className="font-openSans font-light md:text-xl text-sm text-[#f7f7f7] text">
-            I turn your vision into reality with precise design and development,
-            creating engaging digital experiences that resonate with your
-            audience.
-          </p>
-        </div>
+        
       </div>
       <div className=" flex md:flex-row justify-center items-center flex-col gap-10 ">
         {services.map((service, key) => (
           <div
             key={key}
-            className="text-white md:w-[400px] w-full min-h-[300px] h-full p-5 bg-[#141414]"
+            className="text-white md:w-[400px] w-full min-h-[350px] h-full p-5 bg-[#0f0f0f] relative group"
           >
             <span>{<service.icon />}</span>
-            <p className="text-2xl mt-8 mb-3 ">{service.title}</p>
+            <p className="text-2xl mt-8 mb-3 font-extrabold"><code>{service.title}</code></p>
             <hr />
-            <p className="text-sm font-light mt-8 text-[#e3e2e2]">
+            <div className="absolute"><p className="text-sm font-light mt-8 text-[#e3e2e2]">
               {service.description}
-            </p>
+            </p></div>
           </div>
         ))}
       </div>
