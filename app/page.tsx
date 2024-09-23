@@ -14,6 +14,7 @@ export default function Home() {
         <Hero />
         <Projects />
         <TechStack /> 
+        <Services />
         <Contact />
         <Footer />
         {/**<Services /> */}
