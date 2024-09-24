@@ -1,11 +1,7 @@
 "use client";
-import { ArrowDown, ArrowBigRight } from "lucide-react";
-import MagicButton from "./ui/MagicButton";
-import { Spotlight } from "./ui/Spotlight";
 import { TextGenerateEffect } from "./ui/TextGenerateEffect";
-import { Navigation } from "lucide-react";
-import { Download } from "lucide-react";
-import { HeroHighlight } from "./ui/HeroHighlight";
+import { motion } from "framer-motion"
+
 const Hero = () => {
   return (
     <div className="min-h-[450px] h-full">
@@ -19,12 +15,16 @@ const Hero = () => {
             />
             {/* <div className="-mt-4  h-3 bg-gradient-to-r from-[#0525c8d6] to-[#041d995f] animate-expand" />*/}
             <div className="mt-5 transition ease-in-out  duration-75 delay-150">
-              <p className="text-md font-light text-[#46474e]">
+              <motion.div  
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 1.5, duration: 1 }} 
+                  className="text-md font-light text-[#46474e]">
                 With a focus on user-centered design, I leverage my coding and
                 design expertise to create exceptional digital experiences.
                 Committed to delivering innovative solutions that engage and
                 delight users.
-              </p>
+              </motion.div>
             </div>
             
             {/**
