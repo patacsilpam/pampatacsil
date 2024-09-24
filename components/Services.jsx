@@ -1,5 +1,4 @@
-"use client"; // Ensure that this file is a client-side component
-
+"use client"; 
 import { services } from "@/data/globals";
 import { motion } from "framer-motion";
 import { useRef } from "react";
@@ -12,7 +11,7 @@ const Services = () => {
       id="about"
       className="bg-[#000000] flex flex-col justify-center items-center min-h-[768px] md:p-20 p-10 gap-10"
       ref={scrollRef}
-      style={{ overflow: "auto" }} // Correct scroll direction (likely vertical)
+      style={{ overflowY: "auto" }} // Correct scroll direction (likely vertical)
     >
       <div className="text-white text-center md:space-y-5 space-y-1">
         <h1 className="md:text-5xl text-2xl font-light">
