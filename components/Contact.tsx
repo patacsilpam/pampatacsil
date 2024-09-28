@@ -17,16 +17,12 @@ const Contact = () => {
         viewport={{ once: true, amount: 0.2 }} 
         transition={{ duration: 0.6 }}  
         className="z-20 grid place-items-center gap-y-2">
-        <p className="md:text-5xl text-2xl max-w-4xl text-center font-light">
+        <p className="md:text-4xl text-2xl md:max-w-md text-center font-light px-2">
           Let's work something great together.
-        </p>
-        <p className="md:text-lg sm:text-md font-light shadow-inherit px-7">
-          Together, we'll turn your vision into a reality and drive
-          impactful results.
         </p>
         <a
           href="mailto:pamelampatacsil@gmail.com"
-          className="bg-black text-white text-center p-3 max-w-[250px] w-full flex justify-center gap-2 z-20"
+          className="bg-black text-white text-center mt-3 p-3 max-w-[250px] w-full flex justify-center gap-2 z-20 "
         >
           Get in Touch <Send />
         </a>
