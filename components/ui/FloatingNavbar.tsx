@@ -94,7 +94,7 @@ export const FloatingNav = ({
             </Link>
           ))}
         </div>
-        <div className={`md:flex flex-row hidden gap-5 px-10`}>
+        <div className={`lg:flex flex-row hidden gap-5 px-10`}>
           {socialList.map((item, key) => (
             <a
               key={key}
