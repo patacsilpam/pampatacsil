@@ -9,9 +9,9 @@ const Services = () => {
   return (
     <div
       id="about"
-      className="bg-[#000000] flex flex-col justify-center items-center min-h-[768px] md:p-20 p-10 gap-10"
+      className="bg-[#000000] w-screen flex flex-col justify-center items-center min-h-[768px] md:p-20 p-10 gap-10"
       ref={scrollRef}
-      style={{ overflowY: "auto" }} // Correct scroll direction (likely vertical)
+      style={{ overflowY: "auto" }} 
     >
       <div className="text-white text-center md:space-y-5 space-y-1">
         <h1 className="md:text-5xl text-2xl font-light">
