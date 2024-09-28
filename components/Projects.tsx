@@ -14,7 +14,7 @@ export default function Projects() {
       id="projects"
       className="min-h-[768px] h-full w-screen bg-[#000000] flex flex-col items-center justify-center p-10"
       ref={scrollRef}
-      style={{ overflowY: "auto" }}
+      style={{ overflow: "auto" }}
     >
       <h1 className="text-white font-openSans md:text-5xl text-2xl max-w-2xl w-full text-center">
         Take a look at the latest project that I've crafted.
