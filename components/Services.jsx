@@ -23,7 +23,7 @@ const Services = () => {
         {services.map((service, key) => (
           <motion.div
             key={key}
-            className="text-white md:max-w-3xl w-full min-h-[350px] h-full p-5 bg-[#0f0f0f]"
+            className="text-white max-w-3xl w-full min-h-[400px] h-full p-5 bg-[#0f0f0f]"
             initial={{ opacity: 0, y: 50 }} // Slide up animation
             whileInView={{ opacity: 1, y: 0 }} // Fade in and slide into place
             viewport={{ once: true, amount: 0.2 }} // Trigger once when 20% of the element is visible
