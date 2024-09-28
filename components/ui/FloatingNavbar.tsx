@@ -94,11 +94,11 @@ export const FloatingNav = ({
             </Link>
           ))}
         </div>
-        <div className={`lg:flex flex-row hidden gap-5 px-10`}>
+        <div className={`lg:flex flex-row  gap-5 px-10 ${isOpen ? 'block lg:hidden absolute top-20 animate-expand-height' : 'lg:block hidden '}`}>
           {socialList.map((item, key) => (
             <a
               key={key}
-              href="https://github.com/patacsilpam/nextjs-portfolio-website/blob/main/components/Footer.tsx"
+              href={item.link}
               className="cursor-pointer font-openSans font-semibold"
               target="_blank"
             >
@@ -109,30 +109,6 @@ export const FloatingNav = ({
         <div className="md:hidden block p-5" onClick={() => setOpen(!isOpen)}>
           <Menu />
         </div>
-        {isOpen && (
-          <div
-            className="fixed md:hidden top-20 w-full bg-white border border-neutral-100 p-10 overflow-hidden animate-expand-height"
-            style={{
-              backdropFilter: "blur(20px) saturate(240%)",
-              backgroundColor: "#f7f7f7",
-              borderRadius: "2px",
-              margin: "0 5px",
-            }}
-          >
-            <div className="flex flex-col space-y-5">
-              {socialList.map((item, key) => (
-                <a
-                  key={key}
-                  href="https://github.com/patacsilpam/nextjs-portfolio-website/blob/main/components/Footer.tsx"
-                  className="cursor-pointer hover:bg-neutral-300 font-openSans font-semibold"
-                  target="_blank"
-                >
-                  <p className="text-lg font-openSans">{item.title}</p>
-                </a>
-              ))}
-            </div>
-          </div>
-        )}
       </motion.div>
     </AnimatePresence>
   );
