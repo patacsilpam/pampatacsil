@@ -57,7 +57,7 @@ export const FloatingNav = ({
           opacity: visible ? 1 : 0,
         }}
         transition={{
-          duration: 0.2,
+          duration: 0,
         }}
         className={cn(
           "flex flex-row justify-between items-center  h-[90px]  fixed  inset-x-0 mx-auto  rounded-full  bg-white  z-[5000]  ",
@@ -71,7 +71,7 @@ export const FloatingNav = ({
       >
         <div>
           <div className="flex flex-col gap-x-10 p-10">
-            <span className="text-xl font-extrabold text-[#0F0F12]">
+            <span className="text-sm md:text-xl font-extrabold text-[#0F0F12]">
               Pam Patacsil
             </span>
             <span className="font-openSans text-sm text-[#1D1E20]">
