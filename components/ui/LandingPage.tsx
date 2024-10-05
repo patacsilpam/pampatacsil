@@ -1,5 +1,6 @@
 
 
+import Image from "next/image";
 const LandingPage = () => {
   return (
     <div className="bg-[#EBEDF6] md:h-[400px] h-[350px] w-[400px] relative group overflow-hidden rounded-sm">
@@ -9,18 +10,22 @@ const LandingPage = () => {
         </span>
       </div>
       <div>
-        <img
+        <Image
           src="/images/projects/landing-page-1.png"
-          alt=""
+          alt="mang-macs-landing-page"
           className=" absolute z-20 top-10 left-28"
+          width={400}
+          height={400}
           style={{ transform: "rotate(-20deg)", scale: "1.2" }}
         />
       </div>
       <div className="-mt-20">
-        <img
+        <Image
           src="/images/projects/landing-page-2.png"
-          alt=""
+          alt="mang-macs-landing-page"
           className="-mt-[80px] -ml-16"
+          width={400}
+          height={400}
           style={{ transform: "rotate(0deg)", scale: "1.6" }}
         />
       </div>
