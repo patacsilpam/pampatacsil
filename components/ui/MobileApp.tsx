@@ -12,8 +12,6 @@ const MobileApp = () => {
         <Image
           src="/images/projects/mobile-app-1.png"
           alt="Mang Macs Online Food Ordering App"
-          width={400}
-          height={400}
           className="h-[250px] absolute z-20 -bottom-20 left-20  transform -rotate-12"
           style={{ transform: "rotate(-40deg)" }}
         />
@@ -22,8 +20,6 @@ const MobileApp = () => {
         <Image
           src="/images/projects/mobile-app-2.png"
           alt="Mang Macs Online Food Ordering App"
-          width={400}
-          height={400}
           className="h-[250px] absolute z-20 bottom-16 left-32  transform -rotate-45 translate-x-1 -skew-x-3"
         />
       </div>
@@ -31,8 +27,6 @@ const MobileApp = () => {
         <Image
           src="/images/projects/mobile-app-3.png"
           alt="Mang Macs Online Food Ordering App"
-          width={400}
-          height={400}
           className="mt-20 h-[250px] absolute z-20 -top-1 -right-3  transform -rotate-45 translate-x-1 -skew-x-3"
         />
       </div>
