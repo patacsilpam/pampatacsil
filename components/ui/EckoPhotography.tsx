@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const EckoPhotography = () => {
   return (
@@ -9,17 +9,21 @@ const EckoPhotography = () => {
         </span>
       </div>
       <div>
-        <img
+        <Image
           src="/images/projects/ecko-photography-1.png"
-          alt=""
+          alt="Ecko Photography"
+          width={400}
+          height={400}
           className="-mt-[280px] -ml-20  absolute z-20 top-10 shadow-md"
           style={{ transform: "rotate(-12deg)", scale: "0.9" }}
         />
       </div>
       <div className="">
-        <img
+        <Image
           src="/images/projects/ecko-photography-2.png"
-          alt=""
+          alt="Ecko Photography"
+          width={400}
+          height={400}
           className="-mt-10 ml-40  shadow-md"
           style={{ transform: "rotate(-12deg)", scale: "0.7" }}
         />

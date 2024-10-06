@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const LandingPage = () => {
   return (
@@ -9,17 +9,21 @@ const LandingPage = () => {
         </span>
       </div>
       <div>
-        <img
+        <Image
           src="/images/projects/mangmacs-admin-2.png"
-          alt=""
-          className="  absolute z-20 shadow-md  mt-56 ml-20"
+          alt="Mang Macs RMS"
+          width={400}
+          height={400}
+          className="absolute z-20 shadow-md  mt-56 ml-20"
           style={{ transform: "rotate(-12deg)", scale: "1.5" }}
         />
       </div>
       <div className="">
-        <img
+        <Image
           src="/images/projects/mangmacs-admin-1.png"
-          alt=""
+          alt="Mang Macs RMS"
+          width={400}
+          height={400}
           className="shadow-md mt-10"
           style={{ transform: "rotate(-12deg)", scale: "1.5" }} //dasboard
         />

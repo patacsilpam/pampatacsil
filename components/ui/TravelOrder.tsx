@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const TravelOrder = () => {
   return (
@@ -9,17 +9,21 @@ const TravelOrder = () => {
         </span>
       </div>
       <div>
-        <img
+        <Image
           src="/images/projects/travel-order-1.png"
-          alt=""
+          alt="National Commission on Indigenous Peoples - Travel Order System"
+          width={400}
+          height={400}
           className="mt-44 ml-24  absolute z-20 top-10 left-24 shadow-md"
           style={{ transform: "rotate(-12deg)", scale: "1.5" }}
         />
       </div>
-      <div className="">
-        <img
+      <div>
+        <Image
           src="/images/projects/travel-order-2.png"
-          alt=""
+          alt="National Commission on Indigenous Peoples - Travel Order System"
+          width={400}
+          height={400}
           className="-rotate-12 mt-24 ml-20 shadow-md"
           style={{ transform: "rotate(-12deg)", scale: "1.7" }}
         />

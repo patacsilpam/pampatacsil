@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const MobileApp = () => {
   return (
@@ -9,24 +9,30 @@ const MobileApp = () => {
         </span>
       </div>
       <div>
-        <img
+        <Image
           src="/images/projects/mobile-app-1.png"
-          alt=""
+          alt="Mang Macs Online Food Ordering App"
+          width={400}
+          height={400}
           className="h-[250px] absolute z-20 -bottom-20 left-20  transform -rotate-12"
           style={{ transform: "rotate(-40deg)" }}
         />
       </div>
       <div className="-mt-24">
-        <img
+        <Image
           src="/images/projects/mobile-app-2.png"
-          alt=""
+          alt="Mang Macs Online Food Ordering App"
+          width={400}
+          height={400}
           className="h-[250px] absolute z-20 bottom-16 left-32  transform -rotate-45 translate-x-1 -skew-x-3"
         />
       </div>
       <div className="mt-24">
-        <img
+        <Image
           src="/images/projects/mobile-app-3.png"
-          alt=""
+          alt="Mang Macs Online Food Ordering App"
+          width={400}
+          height={400}
           className="mt-20 h-[250px] absolute z-20 -top-1 -right-3  transform -rotate-45 translate-x-1 -skew-x-3"
         />
       </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import Image from "next/image";
 
 const Covid19 = () => {
   return (
@@ -9,17 +9,21 @@ const Covid19 = () => {
         </span>
       </div>
       <div>
-        <img
+        <Image
           src="/images/projects/covid-19-1.png"
-          alt=""
+          alt="Covid 19 Chatbot"
+          width={400}
+          height={400}
           className=" w-full absolute z-20 -bottom-5 left-32 skew-x-6  transform -rotate-45 scale-150"
           style={{ transform: "rotate(-12deg)" }}
         />
       </div>
       <div className="">
-        <img
+        <Image
           src="/images/projects/covid-19-2.png"
-          alt=""
+          alt="Covid 19 Chatbot"
+          width={400}
+          height={400}
           className="h-[500px] absolute left-5"
           style={{ transform: "rotate(-12deg)" }}
         />
