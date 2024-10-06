@@ -10,7 +10,7 @@ const TravelOrder = () => {
       </div>
       <div>
         <Image
-          src="/images/projects/travel-order-1.png"
+          src="/images/projects/travel-order-1.webp"
           alt="National Commission on Indigenous Peoples - Travel Order System"
           width={400}
           height={400}
@@ -20,7 +20,7 @@ const TravelOrder = () => {
       </div>
       <div>
         <Image
-          src="/images/projects/travel-order-2.png"
+          src="/images/projects/travel-order-2.webp"
           alt="National Commission on Indigenous Peoples - Travel Order System"
           width={400}
           height={400}

@@ -10,7 +10,7 @@ const Covid19 = () => {
       </div>
       <div>
         <Image
-          src="/images/projects/covid-19-1.png"
+          src="/images/projects/covid-19-1.webp"
           alt="Covid 19 Chatbot"
           width={400}
           height={400}
@@ -20,7 +20,7 @@ const Covid19 = () => {
       </div>
       <div className="">
         <Image
-          src="/images/projects/covid-19-2.png"
+          src="/images/projects/covid-19-2.webp"
           alt="Covid 19 Chatbot"
           width={400}
           height={400}

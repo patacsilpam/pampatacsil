@@ -10,7 +10,7 @@ const LandingPage = () => {
       </div>
       <div>
         <Image
-          src="/images/projects/mangmacs-admin-2.png"
+          src="/images/projects/mangmacs-admin-2.webp"
           alt="Mang Macs RMS"
           width={400}
           height={400}
@@ -20,7 +20,7 @@ const LandingPage = () => {
       </div>
       <div className="">
         <Image
-          src="/images/projects/mangmacs-admin-1.png"
+          src="/images/projects/mangmacs-admin-1.webp"
           alt="Mang Macs RMS"
           width={400}
           height={400}

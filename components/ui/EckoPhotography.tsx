@@ -10,7 +10,7 @@ const EckoPhotography = () => {
       </div>
       <div>
         <Image
-          src="/images/projects/ecko-photography-1.png"
+          src="/images/projects/ecko-photography-1.webp"
           alt="Ecko Photography"
           width={400}
           height={400}
@@ -20,7 +20,7 @@ const EckoPhotography = () => {
       </div>
       <div className="">
         <Image
-          src="/images/projects/ecko-photography-2.png"
+          src="/images/projects/ecko-photography-2.webp"
           alt="Ecko Photography"
           width={400}
           height={400}

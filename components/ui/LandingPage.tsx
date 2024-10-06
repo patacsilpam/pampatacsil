@@ -11,7 +11,7 @@ const LandingPage = () => {
       </div>
       <div>
         <Image
-          src="/images/projects/landing-page-1.png"
+          src="/images/projects/landing-page-1.webp"
           alt="mang-macs-landing-page"
           className=" absolute z-20 top-10 left-28"
           width={400}
@@ -21,7 +21,7 @@ const LandingPage = () => {
       </div>
       <div className="-mt-20">
         <Image
-          src="/images/projects/landing-page-2.png"
+          src="/images/projects/landing-page-2.webp"
           alt="mang-macs-landing-page"
           className="-mt-[80px] -ml-16"
           width={400}
