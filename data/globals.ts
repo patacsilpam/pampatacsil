@@ -52,52 +52,52 @@ export const services = [
 export const techList = [
   {
     title: "JavaScript",
-    icon: "/images/techstack/javascript.png",
+    icon: "/images/techstack/javascript.webp",
   },
   {
     title: "TypeScript",
-    icon: "/images/techstack/typescript.png",
+    icon: "/images/techstack/typescript.webp",
   },
   {
     title: "TailwindCSS",
-    icon: "/images/techstack/tailwindcss.png",
+    icon: "/images/techstack/tailwindcss.webp",
   },
   {
     title: "Bootstrap",
-    icon: "/images/techstack/bootstrap.png",
+    icon: "/images/techstack/bootstrap.webp",
   },
   {
     title: "Nextjs",
-    icon: "/images/techstack/nextjs.png",
+    icon: "/images/techstack/nextjs.webp",
   },
   {
     title: "Reactjs",
-    icon: "/images/techstack/reactjs.png",
+    icon: "/images/techstack/reactjs.webp",
   },
   {
     title: "Laravel",
-    icon: "/images/techstack/laravel.png",
+    icon: "/images/techstack/laravel.webp",
   },
 
   {
     title: "Inertia",
-    icon: "/images/techstack/inertia.png",
+    icon: "/images/techstack/inertia.webp",
   },
   {
     title: "Java",
-    icon: "/images/techstack/java.png",
+    icon: "/images/techstack/java.webp",
   },
   {
     title: "SQL",
-    icon: "/images/techstack/sql.png",
+    icon: "/images/techstack/sql.webp",
   },
   {
     title: "Flutter",
-    icon: "/images/techstack/flutter.png",
+    icon: "/images/techstack/flutter.webp",
   },
   {
     title: "WordPress",
-    icon: "/images/techstack/wordpress.png",
+    icon: "/images/techstack/wordpress.webp",
   },
 ];
 
