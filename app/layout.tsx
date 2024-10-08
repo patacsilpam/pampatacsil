@@ -7,6 +7,18 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Pam Patacsil | Software Engineer",
   description: "A Web Developer based in the Philippines.",
+  openGraph: {
+    title: "Pam Patacsil | Software Engineer",
+    description: "A Web Developer based in the Philippines.",
+    images: [
+      {
+        url: "/icon.png", // Update the path to your image
+        width: 800,
+        height: 600,
+        alt: "Pam Patacsil",
+      },
+    ],
+  },
 };
 
 export default function RootLayout({
