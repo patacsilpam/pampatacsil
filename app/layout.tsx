@@ -19,6 +19,12 @@ export const metadata: Metadata = {
       },
     ],
   },
+  twitter: {
+    card: "summary_large_image",
+    title: "Pam Patacsil | Software Engineer",
+    description: "A Web Developer based in the Philippines.",
+    images: ["/icon.png"], // Update with the actual image path
+  },
 };
 
 export default function RootLayout({
