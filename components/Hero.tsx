@@ -1,36 +1,34 @@
 "use client";
-import { motion } from "framer-motion"
-
+import { motion } from "framer-motion";
+import Image from "next/image";
 const Hero = () => {
   return (
-    <div className="min-h-[450px] h-full">
-      <div className="flex flex-row justify-center items-center my-44">
-        <div className="flex flex-col justify-center items-center">
-          <div className="max-w-3xl w-full md:text-center px-[3rem] ">
-            {" "}
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ delay: 0.2, duration: 0.2 }} 
-                className="text-sm font-light text-[rgb(70,71,78)]">
-              <h1 className="text-[#1d1e20] text-xl md:text-5xl font-openSans font-semibold">
-                I'm Pam 👋, a software developer turns your ideas into interactive experience.
-              </h1>
-            </motion.div>
-            {/* <div className="-mt-4  h-3 bg-gradient-to-r from-[#0525c8d6] to-[#041d995f] animate-expand" />*/}
-            <div className="mt-5 transition ease-in-out  duration-75 delay-150">
-              <motion.div  
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.3, duration: 0.3 }}>
-                    <small className="text-[0.75rem] lg:text-xl font-light text-[#46474e]">With a focus on user-centered design, I leverage my coding and
-                    design expertise to create exceptional digital experiences.
-                    Committed to delivering innovative solutions that engage and
-                    delight users.</small>
-              </motion.div>
-            </div>
-            
-            {/**
+    <div className="grid place-items-center">
+      <div className="flex flex-row justify-around gap-2 max-w-3xl overflow-hidden my-44">
+        <div className="">
+          <Image
+            src="/images/icon.png"
+            alt="profile"
+            width={450}
+            height={150}
+            className=""
+          />
+        </div>
+        <div className="">
+          <h1>Pamela Martin Patacsil</h1>
+          <p>Front-End Developer</p>
+          <p>La Union, Philippines</p>
+          <p>
+            Hi, I'm Pam, a software developer with nearly 2 years of experience.
+            I build robust web applications using React, Laravel, Inertia, and
+            MySQL. I also have expertise in front-end development with Next.js
+            and mobile development using Java.
+          </p>
+        </div>
+      </div>
+      {/* <div className="-mt-4  h-3 bg-gradient-to-r from-[#0525c8d6] to-[#041d995f] animate-expand" />*/}
+
+      {/**
              * <div className="grid place-items-center mt-[32px]">
               <strong className="text-neutral-200 border border-1 rounded-full p-2 bg-[#e3e2e80d]">
                 <ArrowDown size={28} />
@@ -52,9 +50,6 @@ const Hero = () => {
                 otherClasses="w-[96]"
               />
             </div> */}
-          </div>
-        </div>
-      </div>
     </div>
   );
 };

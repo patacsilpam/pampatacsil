@@ -60,7 +60,7 @@ export const FloatingNav = ({
           duration: 0,
         }}
         className={cn(
-          "flex flex-row justify-between items-center  h-[90px]  fixed  inset-x-0 mx-auto  rounded-full  bg-white  z-[5000]  ",
+          "flex flex-row justify-around items-center  h-[90px]  fixed  inset-x-0 mx-auto  rounded-full  bg-white  z-[5000]  ",
           className
         )}
         style={{
@@ -93,21 +93,6 @@ export const FloatingNav = ({
               </span>
             </Link>
           ))}
-        </div>
-        <div className={`lg:flex flex-row  gap-5 px-10 ${isOpen ? 'block lg:hidden absolute top-20 animate-expand-height' : 'lg:block hidden '}`}>
-          {socialList.map((item, key) => (
-            <a
-              key={key}
-              href={item.link}
-              className="cursor-pointer font-openSans font-semibold"
-              target="_blank"
-            >
-              <p className=" text-sm font-openSans">{item.title}</p>
-            </a>
-          ))}
-        </div>
-        <div className="md:hidden block p-5" onClick={() => setOpen(!isOpen)}>
-          <Menu />
         </div>
       </motion.div>
     </AnimatePresence>
