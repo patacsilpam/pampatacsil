@@ -1,6 +1,6 @@
 import { Banner } from "@/components/banner";
 import { Project } from "@/components/project";
-import { TechStack } from "@/components/techStack";
+import { TechStack } from "@/components/TechStack";
 import { Blocks, File, PanelsLeftBottomIcon, FileBadge } from "lucide-react";
 import Link from "next/link";
 import { Footer } from "@/components/ui/footer";
