@@ -14,14 +14,14 @@ export const metadata: Metadata = {
       {
         url: "/icon.png", // Update the path to your image
         width: 800,
-        height: 600,
+        height: 800,
         alt: "Pam Patacsil",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Pam Patacsil | Software Engineer",
+    title: "Pam Martin Patacsil ",
     description: "A Web Developer based in the Philippines.",
     images: ["/icon.png"], // Update with the actual image path
   },
@@ -34,7 +34,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${inter.className} bg-black px-3`}>{children}</body>
     </html>
   );
 }
