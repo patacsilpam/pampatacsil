@@ -5,6 +5,7 @@ import { Blocks, File, PanelsLeftBottomIcon, FileBadge } from "lucide-react";
 import Link from "next/link";
 import { Footer } from "@/components/ui/footer";
 import { IBM_Plex_Mono } from "next/font/google";
+import { Certificate } from "@/components/certificate";
 const fontMono = IBM_Plex_Mono({ subsets: ["latin"], weight: ["400"] });
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
       </section>
 
       <section className="max-w-4xl w-full mx-auto">
-        <h3 className=" inline-flex items-center gap-3 text-3xl font-medium my-3 mx-2">
+        <h3 className="inline-flex items-center gap-3 text-3xl font-medium my-3 mx-2">
           {" "}
           <PanelsLeftBottomIcon />{" "}
           <span className={`${fontMono.className}`}>Recent Projects</span>
@@ -52,14 +53,14 @@ export default function Home() {
             description="Mobile ordering app for Mang Mac’s Restaurant that streamlines pickup and delivery. Built to handle full menu access, custom orders, and special offers with ease."
             imgSrc="/images/projects/mobile-app-2.webp"
             projectLink="https://tinyurl.com/tap-and-eat"
-            displayedLink="tinyurl.url/tapandeat"
+            displayedLink="github.com/tapandeat"
           />
         </article>
       </section>
       <section className="max-w-4xl w-full mx-auto mt-7">
         <section className="grid grid-cols-1 md:grid-cols-3 gap-4">
           <article className="col-span-2">
-            <h3 className="font-mono inline-flex items-center gap-3 text-3xl font-medium my-3 mx-2">
+            <h3 className="inline-flex items-center gap-3 text-3xl font-medium my-3 mx-2">
               {" "}
               <Blocks />{" "}
               <span className={`${fontMono.className}`}>Tech Stack</span>
@@ -78,7 +79,7 @@ export default function Home() {
               <br />
               <TechStack
                 title="Back End"
-                stacks={["PHP", "Laravel", "NodeJS", "PostgreSQL", "MySQL"]}
+                stacks={["PHP", "Laravel", "NodeJS", "PostgreSQL", "Supabase"]}
               />
               <br />
               <TechStack
@@ -89,41 +90,25 @@ export default function Home() {
           </article>
 
           <article className="col-span-1">
-            <h3 className="font-mono inline-flex items-center gap-3 text-3xl font-medium my-3 mx-2">
+            <h3 className="inline-flex items-center gap-3 text-3xl font-medium my-3 mx-2">
               {" "}
               <FileBadge />{" "}
               <span className={`${fontMono.className}`}>Certications</span>
             </h3>
-            <article className="p-3  bg-neutral-900 border border-neutral-600 rounded-md">
-              <div className="bg-black font-mono p-2 rounded">
-                <Link
-                  target="_blank"
-                  href={
-                    "https://pdfhost.io/v/b3bS9UrYdk_Complete_2024_Web_Development_Bootcamp"
-                  }
-                  className={fontMono.className}
-                >
-                  Complete Web Development Bootcamp
-                </Link>
-              </div>
-              <div className="bg-black font-mono mt-2 p-2 rounded">
-                <Link
-                  target="_blank"
-                  href={
-                    "https://pdfhost.io/v/b3bS9UrYdk_Complete_2024_Web_Development_Bootcamp"
-                  }
-                  className={fontMono.className}
-                >
-                  Cyber Range Exercise - DICT R1
-                </Link>
-              </div>
+            <article className=" bg-neutral-900 border border-neutral-600 rounded-md">
+              <Certificate
+                certName=" Complete Web Development Bootcamp"
+                certLink="https://pdfhost.io/v/b3bS9UrYdk_Complete_2024_Web_Development_Bootcamp"
+              />
+              <Certificate
+                certName="Cyber Range Exercise - DICT R1"
+                certLink=""
+              />
             </article>
             <article className="h-[84px] mt-2 p-3  w-full bg-neutral-900 border border-neutral-600 rounded-md">
               <div className=" border border-neutral-600 font-mono p-2 rounded">
                 <Link
-                  href={
-                    "https://docs.google.com/document/d/e/2PACX-1vSyOlu4JVzLxGM-050PqIoxB8sZXlgZQGdb3nuhOtRb52dinPcN59bdvNBVHjECO1xgA0xv01GsAdhC/pub"
-                  }
+                  href={"/RESUME_Patacsil_Pamela M.pdf"}
                   className="h-10 flex items-center gap-x-3"
                 >
                   {" "}
