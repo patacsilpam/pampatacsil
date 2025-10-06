@@ -11,7 +11,7 @@ export default function Home() {
     <main className="max-w-5xl w-full mx-auto text-white">
       <section className="mt-10 mb-10 flex flex-col items-center">
         <Banner
-          imgSrc={"/profile-pic.png"}
+          imgSrc={"/profile-pic.webp"}
           name="Pam Martin Patacsil"
           title="Developer"
           description="I build things for the web. Mostly to make ideas real, sometimes just to see what’s possible. I’m driven to build fast, scalable, and polished products—MVPs, full platforms, and everything in between."
@@ -30,18 +30,18 @@ export default function Home() {
             <Project
               id={1}
               name="Omniza"
-              description="A bespoke platform for curating luxury Ibiza experiences. Connects users with private villas, chefs, and boats."
+              description="A landing page where users request access to Ibiza’s concierge services, connecting them directly with private villas, chefs, and boats."
               imgSrc="/images/projects/mobile-app-2.webp"
-              projectLink="https://github.com/"
+              projectLink="https://www.omniza.vip/"
               displayedLink="omniza.vip"
             />
 
             <Project
               id={2}
               name="Pyng"
-              description="A platform enabling experts to easily monetize 1-on-1 chat. Designed for inbound revenue generation without scheduling clutter."
+              description="A web app that lets users link their Telegram accounts and earn through paid 1:1 chats with subscribers."
               imgSrc="/images/projects/mobile-app-2.webp"
-              projectLink="https://github.com/"
+              projectLink="https://www.pyng.live/"
               displayedLink="pyng.live"
             />
           </div>
@@ -49,7 +49,7 @@ export default function Home() {
           <Project
             id={3}
             name="Foodie"
-            description="A dedicated mobile ordering application for Mang Macs Restaurant. Streamlines pickup and delivery for the full menu and special offers."
+            description="Mobile ordering app for Mang Mac’s Restaurant that streamlines pickup and delivery. Built to handle full menu access, custom orders, and special offers with ease."
             imgSrc="/images/projects/mobile-app-2.webp"
             projectLink="https://tinyurl.com/tap-and-eat"
             displayedLink="tinyurl.url/tapandeat"
@@ -122,7 +122,7 @@ export default function Home() {
               <div className=" border border-neutral-600 font-mono p-2 rounded">
                 <Link
                   href={
-                    "https://pdfhost.io/v/b3bS9UrYdk_Complete_2024_Web_Development_Bootcamp"
+                    "https://docs.google.com/document/d/e/2PACX-1vSyOlu4JVzLxGM-050PqIoxB8sZXlgZQGdb3nuhOtRb52dinPcN59bdvNBVHjECO1xgA0xv01GsAdhC/pub"
                   }
                   className="h-10 flex items-center gap-x-3"
                 >

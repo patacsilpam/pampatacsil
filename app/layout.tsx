@@ -6,10 +6,12 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Pam Patacsil | Software Engineer",
-  description: "A Web Developer based in the Philippines.",
+  description:
+    "I build things for the web. Mostly to make ideas real, sometimes just to see what’s possible. I’m driven to build fast, scalable, and polished products—MVPs, full platforms, and everything in between.",
   openGraph: {
-    title: "Pam Patacsil | Software Engineer",
-    description: "A Web Developer based in the Philippines.",
+    title: "Pam Patacsil ",
+    description:
+      "I build things for the web. Mostly to make ideas real, sometimes just to see what’s possible. I’m driven to build fast, scalable, and polished products—MVPs, full platforms, and everything in between.",
     images: [
       {
         url: "/icon.png", // Update the path to your image
@@ -22,7 +24,8 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Pam Martin Patacsil ",
-    description: "A Web Developer based in the Philippines.",
+    description:
+      "I build things for the web. Mostly to make ideas real, sometimes just to see what’s possible. I’m driven to build fast, scalable, and polished products—MVPs, full platforms, and everything in between.",
     images: ["/icon.png"], // Update with the actual image path
   },
 };
