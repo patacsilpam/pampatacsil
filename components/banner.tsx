@@ -49,7 +49,10 @@ export const Banner = ({ imgSrc, name, title, description }: BannerProps) => {
             <p
               className={`max-w-full md:max-w-[400px] text-justify  text-xs md:text-sm text-neutral-400 tracking-wide ${fontMono.className}`}
             >
-              {description} <span className="text-neutral-600">Read More.</span>
+              <Link href={"/about-me"}>
+                {description}{" "}
+                <span className="text-neutral-600">Read More.</span>
+              </Link>
             </p>
           </div>
           <div className="hidden md:flex flex-row gap-x-6">
