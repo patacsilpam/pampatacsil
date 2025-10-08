@@ -60,6 +60,7 @@ export default function Page() {
         </p>
       </article>
       <article className="">
+        <p className="font-semibold mb-3">✉️ Get In Touch</p>
         <p>
           I’m most responsive over{" "}
           <a
