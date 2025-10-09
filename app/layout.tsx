@@ -6,7 +6,7 @@ import Script from "next/script";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Pam Patacsil |Developer",
+  title: "Pam Patacsil | Developer",
   description:
     "I build things for the web. Mostly to make ideas real, sometimes just to see what’s possible. I’m driven to build fast, scalable, and polished products—MVPs, full platforms, and everything in between.",
   openGraph: {
