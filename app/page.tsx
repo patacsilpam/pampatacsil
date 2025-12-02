@@ -42,7 +42,7 @@ export default function Home() {
               name="Pyng"
               description="A web app that lets users link their Telegram accounts and earn through paid 1:1 chats with subscribers."
               imgSrc="/images/projects/mobile-app-2.webp"
-              projectLink="https://www.pyng.live/"
+              projectLink="https://pyng.live/"
               displayedLink="pyng.live"
             />
           </div>
